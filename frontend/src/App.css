@@ -1,0 +1,60 @@
+.App {
+}
+
+body {
+  background-color: #e3e3e3;
+  color: #333333;
+  font-size: 14px;
+  line-height: 1.5em;
+  display: "flex";
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.phone-section {
+  background-color: #01131b;
+  min-height: 300px;
+  width: 100%;
+  max-width: 420px;
+  margin: auto;
+  padding: 15px;
+}
+
+.error-page {
+  text-align: center;
+}
+
+.dialog {
+  width: 95%;
+  max-width: 33em;
+  background-color: white;
+  margin: 4em auto;
+  border: 1px solid #ccc;
+  border-top: 4px solid #b00100;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  padding: 7px 0 0;
+  box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+}
+
+.dialog p:nth-child(3) {
+  background-color: #f7f7f7;
+  margin-bottom: 0;
+}
+
+.header-section {
+  min-height: 60px;
+  padding: 10px;
+  background-color: #1686b0;
+}
+
+.body-section {
+  color: white;
+  padding: 10px;
+}
+
+.sub-text {
+  font-size: 10px;
+}
